@@ -1,0 +1,17 @@
+:root {
+  --text-color-light: #ffffff;
+  --font-opacity: 30%;
+  --background-color: #373e45;
+  --second-color: #3f464d;
+  --border-color: #4b5258;
+  --font-size-large: clamp(1.5rem, 0.1042rem + 5.5556vw, 3rem);
+  --font-size-base: clamp(0.75rem, 0.5174rem + 0.9259vw, 1rem);
+  --font-size-small: clamp(0.625rem, 0.5087rem + 0.463vw, 0.75rem);
+  --font-size-extra-small: clamp(0.5rem, 0.2674rem + 0.9259vw, 0.75rem);
+}
+
+body {
+  color: var(--text-color-light);
+  background-color: var(--background-color);
+  font-family: 'Inter', sans-serif;
+}

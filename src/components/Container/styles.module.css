@@ -1,0 +1,16 @@
+.container {
+  height: 100%;
+  padding-inline: 80px;
+  padding-block-start: 80px;
+}
+@media (max-width: 833px) and (min-width: 403px) {
+  .container {
+    padding-inline: calc(3% + 40px);
+  }
+}
+@media (max-width: 403px) {
+  .container {
+    padding-inline: 40px;
+    padding-block-start: 56px;
+  }
+}

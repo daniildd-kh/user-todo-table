@@ -1,0 +1,26 @@
+.header {
+  background-color: var(--background-color);
+  margin-block-end: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+.title {
+  font-size: var(--font-size-large);
+  color: var(--text-color-light);
+  font-weight: 700;
+  line-height: 1.2;
+}
+.subtitle {
+  font-size: var(--font-size-base);
+  color: var(--text-color-light);
+  font-weight: 400;
+  opacity: var(--font-opacity);
+  line-height: 1.5;
+}
+
+@media (max-width: 403px) {
+  .header {
+    margin-block-end: 24px;
+  }
+}
